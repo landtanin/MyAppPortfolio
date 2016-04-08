@@ -32,51 +32,39 @@
             android:layout_height="match_parent">
 
             <Button
-                android:layout_width="@dimen/button_width"
-                android:layout_height="@dimen/button_height"
                 android:text="@string/Spotify_streamer_text"
                 android:id="@+id/spotify_streamer_button"
-                android:layout_gravity="center_horizontal"
+                style="@style/GeneralButton"
                 android:background="#baed91" />
 
             <Button
-                android:layout_width="@dimen/button_width"
-                android:layout_height="@dimen/button_height"
                 android:text="@string/Score_app_text"
                 android:id="@+id/scores_app_button"
-                android:layout_gravity="center_horizontal"
+                style="@style/GeneralButton"
                 android:background="#faf884" />
 
             <Button
-                android:layout_width="@dimen/button_width"
-                android:layout_height="@dimen/button_height"
                 android:text="@string/Library_app_text"
                 android:id="@+id/library_app_button"
-                android:layout_gravity="center_horizontal"
+                style="@style/GeneralButton"
                 android:background="#f8b88b" />
 
             <Button
-                android:layout_width="@dimen/button_width"
-                android:layout_height="@dimen/button_height"
                 android:text="@string/Build_it_bigger_text"
                 android:id="@+id/build_it_bigger_button"
-                android:layout_gravity="center_horizontal"
+                style="@style/GeneralButton"
                 android:background="#fea3aa" />
 
             <Button
-                android:layout_width="@dimen/button_width"
-                android:layout_height="@dimen/button_height"
                 android:text="@string/Xyz_reader_text"
                 android:id="@+id/xyz_reader_button"
-                android:layout_gravity="center_horizontal"
+                style="@style/GeneralButton"
                 android:background="#f2a2e8" />
 
             <Button
-                android:layout_width="@dimen/button_width"
-                android:layout_height="@dimen/button_height"
                 android:text="@string/Capstone_text"
                 android:id="@+id/capstone_button"
-                android:layout_gravity="center_horizontal"
+                style="@style/GeneralButton"
                 android:background="#b2cefe" />
         </LinearLayout>
     </ScrollView>
