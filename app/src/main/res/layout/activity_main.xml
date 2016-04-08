@@ -9,67 +9,76 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.landtanin.myappportfolio.MainActivity">
 
-    <LinearLayout
-        android:orientation="vertical"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#303030"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:nestedScrollingEnabled="true"
+        android:layout_marginTop="50dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="My Nanodegree Apps!"
-            android:id="@+id/textView"
-            android:layout_gravity="center_horizontal"
-            android:textSize="30dp"
-            android:layout_marginBottom="30dp"
-            android:textColor="#303030" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <Button
-            android:layout_width="@dimen/button_width"
-            android:layout_height="@dimen/button_height"
-            android:text="SPOTIFY STREAMER"
-            android:id="@+id/button1"
-            android:layout_gravity="center_horizontal"
-            android:background="#baed91" />
+            <Button
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/Spotify_streamer_text"
+                android:id="@+id/spotify_streamer_button"
+                android:layout_gravity="center_horizontal"
+                android:background="#baed91" />
 
-        <Button
-            android:layout_width="@dimen/button_width"
-            android:layout_height="@dimen/button_height"
-            android:text="SCORES APP"
-            android:id="@+id/button2"
-            android:layout_gravity="center_horizontal"
-            android:background="#faf884" />
+            <Button
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/Score_app_text"
+                android:id="@+id/scores_app_button"
+                android:layout_gravity="center_horizontal"
+                android:background="#faf884" />
 
-        <Button
-            android:layout_width="@dimen/button_width"
-            android:layout_height="@dimen/button_height"
-            android:text="LIBRARY APP"
-            android:id="@+id/button3"
-            android:layout_gravity="center_horizontal"
-            android:background="#f8b88b" />
+            <Button
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/Library_app_text"
+                android:id="@+id/library_app_button"
+                android:layout_gravity="center_horizontal"
+                android:background="#f8b88b" />
 
-        <Button
-            android:layout_width="@dimen/button_width"
-            android:layout_height="@dimen/button_height"
-            android:text="BUILD IT BIGGER"
-            android:id="@+id/button4"
-            android:layout_gravity="center_horizontal"
-            android:background="#fea3aa" />
+            <Button
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/Build_it_bigger_text"
+                android:id="@+id/build_it_bigger_button"
+                android:layout_gravity="center_horizontal"
+                android:background="#fea3aa" />
 
-        <Button
-            android:layout_width="@dimen/button_width"
-            android:layout_height="@dimen/button_height"
-            android:text="XYZ READER"
-            android:id="@+id/button5"
-            android:layout_gravity="center_horizontal"
-            android:background="#f2a2e8" />
+            <Button
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/Xyz_reader_text"
+                android:id="@+id/xyz_reader_button"
+                android:layout_gravity="center_horizontal"
+                android:background="#f2a2e8" />
 
-        <Button
-            android:layout_width="@dimen/button_width"
-            android:layout_height="@dimen/button_height"
-            android:text="CAPSTONE: MY OWN APP"
-            android:id="@+id/button6"
-            android:layout_gravity="center_horizontal"
-            android:background="#b2cefe" />
-    </LinearLayout>
+            <Button
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/Capstone_text"
+                android:id="@+id/capstone_button"
+                android:layout_gravity="center_horizontal"
+                android:background="#b2cefe" />
+        </LinearLayout>
+    </ScrollView>
+
 </RelativeLayout>

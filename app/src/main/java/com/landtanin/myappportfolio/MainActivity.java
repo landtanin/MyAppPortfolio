@@ -85,12 +85,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void bindWidget() {
 
-        B1 = (Button) findViewById(R.id.button1);
-        B2 = (Button) findViewById(R.id.button2);
-        B3 = (Button) findViewById(R.id.button3);
-        B4 = (Button) findViewById(R.id.button4);
-        B5 = (Button) findViewById(R.id.button5);
-        B6 = (Button) findViewById(R.id.button6);
+        B1 = (Button) findViewById(R.id.spotify_streamer_button);
+        B2 = (Button) findViewById(R.id.scores_app_button);
+        B3 = (Button) findViewById(R.id.library_app_button);
+        B4 = (Button) findViewById(R.id.build_it_bigger_button);
+        B5 = (Button) findViewById(R.id.xyz_reader_button);
+        B6 = (Button) findViewById(R.id.capstone_button);
 
     }
 }
